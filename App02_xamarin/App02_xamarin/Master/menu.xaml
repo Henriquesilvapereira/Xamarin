@@ -7,7 +7,7 @@
         <!-- Menu -->
         <ContentPage Title="Menu" BackgroundColor="#0D1F2D">
             <StackLayout>
-                <StackLayout BackgroundColor="#FFC926" Padding="20">
+                <StackLayout BackgroundColor="#FFC926" Padding="21">
                     <Image Source="Logo.png" HorizontalOptions="Center" VerticalOptions="Center" />
                 </StackLayout>
                 <!--Botão-->
