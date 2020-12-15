@@ -11,7 +11,7 @@
                     <Image Source="Logo.png" HorizontalOptions="Center" VerticalOptions="Center" />
                 </StackLayout>
                 <!--Botão-->
-                <StackLayout Spacing="10">
+                <StackLayout Spacing="15">
                     <Button Text="Henrique Silva" FontSize="Default" TextColor="White" BackgroundColor="#08A8F8" Clicked="GoPaginaPerfil1"/>
                     <Button Text="Eduardo Chagas Rodrigues" FontSize="Default" TextColor="White" BackgroundColor="#08A8F8"     Clicked="GoPaginaPerfil2"/>
                     <Button Text="Josaniel " FontSize="Default" TextColor="White" BackgroundColor="#08A8F8"    Clicked="GoPaginaPerfil3"/>
