@@ -18,7 +18,8 @@ namespace App02_Xamarin.Pages
         }
 
         private void btEnviar_Clicked(object sender, EventArgs e)
-        {
+        { 
+          //Parametros para Envio //
             string rem = etReme.Text;
             string des = etDest.Text;
             string ass = etAssum.Text;
