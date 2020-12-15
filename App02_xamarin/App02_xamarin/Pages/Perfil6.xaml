@@ -13,6 +13,6 @@
         <Entry x:Name="etAssum" Placeholder="Assunto" TextColor="Black"/>
         <!--Entry x:Name="etTexto" Placeholder="Escreva seu texto"/>-->
         <Entry x:Name="etTexto" Placeholder="Insira sua mensagem" TextColor="Black"/>
-        <Button x:Name="btEnviar" Text="Enviar" Clicked="btEnviar_Clicked" BackgroundColor="#08A8F8"/>
+        <Button x:Name="btEnviar" Text="Enviar" Clicked="btEnviar_Clicked" BackgroundColor="#FDFDFD"/>
      </StackLayout>
 </ContentPage>
