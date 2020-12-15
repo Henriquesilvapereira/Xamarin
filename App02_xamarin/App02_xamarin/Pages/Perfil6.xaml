@@ -7,11 +7,11 @@
     <StackLayout>
         <Label Text="Programa para envio de email"
          HorizontalOptions="Center" FontSize="Large"/>
-        <Entry x:Name="etReme" Keyboard="Email" Placeholder="Informe Seu email"/>
-        <Entry x:Name="etDest" Keyboard="Email" Placeholder="Informe o Email do Destinatario"/>
-        <Entry x:Name="etAssum" Placeholder="Assunto"/>
+        <Entry x:Name="etReme" Keyboard="Email" Placeholder="Informe Seu email" TextColor="Black"/>
+        <Entry x:Name="etDest" Keyboard="Email" Placeholder="Informe o Email do Destinatario" TextColor="Black"/>
+        <Entry x:Name="etAssum" Placeholder="Assunto" TextColor="Black"/>
         <!--Entry x:Name="etTexto" Placeholder="Escreva seu texto"/>-->
-        <Entry x:Name="etTexto" Placeholder="Insira sua mensagem"/>
-        <Button x:Name="btEnviar" Text="Enviar" Clicked="btEnviar_Clicked"/>
+        <Entry x:Name="etTexto" Placeholder="Insira sua mensagem" TextColor="Black"/>
+        <Button x:Name="btEnviar" Text="Enviar" Clicked="btEnviar_Clicked" BackgroundColor="#08A8F8"/>
      </StackLayout>
 </ContentPage>

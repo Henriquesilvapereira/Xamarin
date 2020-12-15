@@ -5,19 +5,19 @@
              x:Class="App02_Xamarin.Master.Menu">
     <MasterDetailPage.Master>
         <!-- Menu -->
-        <ContentPage Title="Menu" BackgroundColor="#0D1F2D">
+        <ContentPage Title="Menu" BackgroundColor="#08A8F8">
             <StackLayout>
-                <StackLayout BackgroundColor="#FFC926" Padding="21">
+                <StackLayout BackgroundColor="#FFFFFF" Padding="21">
                     <Image Source="Logo.png" HorizontalOptions="Center" VerticalOptions="Center" />
                 </StackLayout>
                 <!--Botão-->
                 <StackLayout Spacing="10">
-                    <Button Text="Henrique Silva" FontSize="Default" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaPerfil1"/>
-                    <Button Text="Eduardo Chagas Rodrigues" FontSize="Default" TextColor="White" BackgroundColor="Transparent"     Clicked="GoPaginaPerfil2"/>
-                    <Button Text="Josaniel " FontSize="Default" TextColor="White" BackgroundColor="Transparent"    Clicked="GoPaginaPerfil3"/>
-                    <Button Text="Jonathan" FontSize="Default" TextColor="White" BackgroundColor="Transparent"    Clicked="GoPaginaPerfil4"/>
-                    <Button Text="Fale Conosco" FontSize="Default" TextColor="White" BackgroundColor="Transparent"    Clicked="GoPaginaPerfil6"/>
-                    <Button Text="Desenvolvido em Xamarin" FontSize="Default" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaXamarin"/>
+                    <Button Text="Henrique Silva" FontSize="Default" TextColor="White" BackgroundColor="#08A8F8" Clicked="GoPaginaPerfil1"/>
+                    <Button Text="Eduardo Chagas Rodrigues" FontSize="Default" TextColor="White" BackgroundColor="#08A8F8"     Clicked="GoPaginaPerfil2"/>
+                    <Button Text="Josaniel " FontSize="Default" TextColor="White" BackgroundColor="#08A8F8"    Clicked="GoPaginaPerfil3"/>
+                    <Button Text="Jonathan" FontSize="Default" TextColor="White" BackgroundColor="#08A8F8"    Clicked="GoPaginaPerfil4"/>
+                    <Button Text="Fale Conosco" FontSize="Default" TextColor="White" BackgroundColor="#08A8F8"    Clicked="GoPaginaPerfil6"/>
+                    <Button Text="Desenvolvido em Xamarin" FontSize="Default" TextColor="White" BackgroundColor="#08A8F8" Clicked="GoPaginaXamarin"/>
                 </StackLayout>
             </StackLayout>
         </ContentPage>
