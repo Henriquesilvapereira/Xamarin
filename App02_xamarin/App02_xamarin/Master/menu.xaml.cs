@@ -41,6 +41,12 @@ namespace App02_Xamarin.Master
             IsPresented = false;
         }
 
+        private void GoPaginaPerfil6(object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Pages.Perfil6());
+            IsPresented = false;
+        }
+
         private void GoPaginaXamarin(object sender, EventArgs args)
         {
             Detail = new NavigationPage(new Pages.Xamarin());
