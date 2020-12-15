@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_Xamarin.Pages.Perfil6"
+             BackgroundColor="#08A8F8"
              Title="Contato"
              >
     <StackLayout>
-        <Label Text="Programa para envio de email"
+        <Label Text="Programa para envio de email" TextColor="Black"
          HorizontalOptions="Center" FontSize="Large"/>
         <Entry x:Name="etReme" Keyboard="Email" Placeholder="Informe Seu email" TextColor="Black"/>
         <Entry x:Name="etDest" Keyboard="Email" Placeholder="Informe o Email do Destinatario" TextColor="Black"/>
