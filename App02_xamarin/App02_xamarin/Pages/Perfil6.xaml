@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App02_Xamarin.Pages.Perfil6"
-             BackgroundColor="#08A8F8"
+             BackgroundColor="White"
              Title="Contato"
              >
     <StackLayout>

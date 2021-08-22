@@ -27,7 +27,8 @@
                 <Label  Text="Empresa" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="Black" FontSize="48" />
             </StackLayout>
             <StackLayout Padding="30">
-                <Label Text="Comprada pela Microsoft em 2016 Desenvolve tecnologia multiplataforma que funcionam principalmente no Android, iOS e UWP." />
+                <Label Text="Comprada pela Microsoft em 2016 Desenvolve tecnologia multiplataforma que funcionam principalmente no Android, iOS e UWP." 
+                       TextColor="Black"/>
             </StackLayout>
         </StackLayout>
         </ScrollView>
